@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.norppa.MainActivity">
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="500dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/norppa1"
+                android:id="@+id/imageView" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_normal"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/name"
+                android:textStyle="bold"
+                android:textSize="@dimen/Main_Heading"
+                android:fontFamily="sans-serif-light"
+                android:layout_alignParentTop="true"
+                android:id="@+id/Fund_name" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/descr_1"
+                android:textStyle="bold|italic"
+                android:paddingLeft="@dimen/padding_normal"
+                android:textSize="@dimen/description"
+                android:fontFamily="sans-serif-light"
+                android:layout_below="@id/Fund_name"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/description_1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/descr_2"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold|italic"
+                android:textSize="@dimen/description"
+                android:paddingLeft="@dimen/padding_big"
+                android:fontFamily="sans-serif-light"
+                android:layout_below="@id/description_1"
+                android:id="@+id/description_2" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/contactColor"
+            android:padding="@dimen/padding_small"
+            android:textStyle="bold"
+            android:background="@color/background"
+            android:text="@string/contact_info"
+            android:textSize="@dimen/contact_info" />
+        <LinearLayout
+            android:background="@color/background"
+            android:padding="@dimen/padding_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/info"
+                android:paddingLeft="@dimen/padding_normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/contactColor"
+                android:paddingLeft="@dimen/padding_normal"
+                android:text="@string/contact_1"
+                android:textSize="@dimen/contacts" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:padding="@dimen/padding_small">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/phone"
+                android:paddingLeft="@dimen/padding_normal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/contactColor"
+                android:paddingLeft="@dimen/padding_normal"
+                android:text="@string/contact_2"
+                android:textSize="@dimen/contacts" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:padding="@dimen/padding_small">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/email_icon"
+                android:paddingLeft="@dimen/padding_normal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/contactColor"
+                android:paddingLeft="@dimen/padding_normal"
+                android:text="@string/contact_3"
+                android:textSize="@dimen/contacts" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

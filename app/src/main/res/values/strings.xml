@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Norppa</string>
+    <string name="contact_1">
+        www.balticseal.org
+    </string>
+    <string name="contact_2">
+        49-XXXX-XXXX
+    </string>
+    <string name="contact_3">
+        seal@seal.com
+    </string>
+    <string name="descr_1">
+        Help save Baltic seals
+    </string>
+    <string name="descr_2">
+        ...or simply watch cute pics
+    </string>
+    <string name="name">Baltic Seals Friends Fund</string>>
+    <string name="contact_info">Contact Information</string>
+</resources>
