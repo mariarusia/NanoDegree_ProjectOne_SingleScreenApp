@@ -105,18 +105,18 @@
             android:layout_height="wrap_content"
             android:background="@color/background"
             android:padding="@dimen/padding_small">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/email_icon"
-            android:paddingLeft="@dimen/padding_normal"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/contactColor"
-            android:paddingLeft="@dimen/padding_normal"
-            android:text="@string/contact_3"
-            android:textSize="@dimen/contacts" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/email_icon"
+                android:paddingLeft="@dimen/padding_normal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/contactColor"
+                android:paddingLeft="@dimen/padding_normal"
+                android:text="@string/contact_3"
+                android:textSize="@dimen/contacts" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
